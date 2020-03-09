@@ -23,11 +23,16 @@ a:active {
     text-decoration: none;
 }
 
+body {
+    position: relative;
+}
+
 footer {
     display: grid;
     color: white;
     background-color: black;
     bottom: 0;
+    position: relative;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -38,6 +43,8 @@ footer {
 .footer-container {
     grid-column: 2 / 3;
     display: grid;
+    bottom: 0;
+    position: relative;
     /* ACTING AS A GRID CONTAINER */
     grid-template-columns: 2fr 2fr 2fr 3fr;
     grid-template-rows: auto auto;
